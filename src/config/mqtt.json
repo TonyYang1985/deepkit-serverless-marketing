@@ -1,0 +1,13 @@
+{
+    "url": "wss://ws.emqx.kakagrp.dev:443/mqtt" ,
+    "options":{
+        "username": "agent_dev",
+        "password": "agent_dev"
+    },
+    "subscribe":"$share/agent",
+    "publish" :{
+        "ops" :"$share/ops",
+        "download":"$share/download"
+
+     }
+}
